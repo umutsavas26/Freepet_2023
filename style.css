@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic A1');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav{
+    border-style: solid;
+    border-color: orange;
+    overflow: hidden;
+    width: 94%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    justify-content: space-around;   
+    background-color: #262626; 
+    border-radius: 10px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color:orange;
+}
+a:hover{
+    color:orange; 
+}
+body {   
+    height: 100%;
+    background: url("./imgs/second.jpg") no-repeat center;
+    background-size:cover;
+    font-family: sans-serif;
+}
+
+#about{
+    border-color: orange;
+    border-style: solid;
+    height: 80%;
+    width: 94%;
+    position:relative;
+    top: 3%;
+    background-color: rgb(38, 38, 38,0.9);
+    border-radius: 10px;
+    margin: auto;
+}
+p{
+    color: white;
+    font-family: Gothic A1;
+}
+
+input{
+    color:black
+}
+
+#content{
+    border: solid 2px orange;
+    height: 84%;
+    width: 62%;
+    position:relative;
+    background-color: rgb(38, 38, 38,0.7);
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#content > p {
+    font-size: 20px;
+}
+#content > img{
+    width: 30%;
+    border-style: solid;
+    padding: 10% 5%;
+    float: left;
+    
+}
+#content > h1{
+    font-size: 80px;
+}
+
+.login{
+    border: solid 2px orange;
+    height: 84%;
+    width: 32%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+.loginForm{
+    position: relative;
+    flex-direction: column;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
