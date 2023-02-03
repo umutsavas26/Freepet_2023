@@ -54,7 +54,8 @@ p{
 }
 
 input{
-    color:black
+    border-color:aqua;
+    border-style: solid; 
 }
 
 #content{
@@ -89,13 +90,21 @@ input{
     margin-top: 3%;
     margin-right: 2%;
 }
-.loginForm{
-    position: relative;
-    flex-direction: column;
-    display: block;
-    box-sizing: border-box;
+
+.usernamediv{
+    text-align: center;
+    margin: 5%;
+    
+}
+.passworddiv{
+    text-align: center;
+    margin: 5%;
+}
+#loginUsername{
+    font-weight: 100;
 }
 
 
-
-
+.passworddiv > input{
+    width: 100%;
+}
