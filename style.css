@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic A1');
+@import url('https://fonts.googleapis.com/css?family=PT Sans');
 *{
     margin: 0;
     padding: 0;
     color: white;
     font-family: sans-serif;
+    border-color: #913175;
 }
 
 nav{
-    border-style: solid;
-    border-color: orange;
     overflow: hidden;
     width: 94%;
     align-items: center;
@@ -25,7 +25,7 @@ a{
     text-decoration: none;
 }
 h1{
-    color:orange;
+    color:#E9E8E8;
 }
 a:hover{
     color:orange; 
@@ -38,8 +38,6 @@ body {
 }
 
 #about{
-    border-color: orange;
-    border-style: solid;
     height: 80%;
     width: 94%;
     position:relative;
@@ -54,12 +52,14 @@ p{
 }
 
 input{
-    border-color:aqua;
     border-style: solid; 
+    font-size: 120%;
+    color: black;
 }
 
 #content{
-    border: solid 2px orange;
+    border-radius: 2%;
+    border-style: solid;
     height: 84%;
     width: 62%;
     position:relative;
@@ -68,22 +68,21 @@ input{
     margin-top: 3%;
     margin-left: 2%;
 }
-#content > p {
-    font-size: 20px;
+#contentlogo{
 }
-#content > img{
-    width: 30%;
-    border-style: solid;
-    padding: 10% 5%;
+#contentlogo > img{
+    width: 45%;
     float: left;
-    
 }
-#content > h1{
-    font-size: 80px;
+#contentlogo> h1{
+    font-size: 100px;
+    font-family: PT Sans;
+    margin-top: 8%;
 }
 
 .login{
-    border: solid 2px orange;
+    border-style: solid;
+    border-radius: 2%;
     height: 84%;
     width: 32%;
     float: right;
@@ -93,18 +92,23 @@ input{
 
 .usernamediv{
     text-align: center;
-    margin: 5%;
-    
+    border-style: solid;
 }
 .passworddiv{
     text-align: center;
-    margin: 5%;
+    border-style: solid;
 }
 #loginUsername{
     font-weight: 100;
+    border-style: solid;
 }
-
-
 .passworddiv > input{
     width: 100%;
+}
+.loginButton{
+    width: 80%;
+    height: 26%;
+    color:black;  
+    position: relative;
+    left: 10%;
 }
