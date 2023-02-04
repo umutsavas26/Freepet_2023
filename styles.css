@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic A1');
+@import url('https://fonts.googleapis.com/css?family=PT Sans');
+/* color palette : https://colorhunt.co/palette/20262e913175cd5888e9e8e8 */
+*{
+    margin: 0;
+    padding: 0;
+    color: B6EADA;
+    font-family: sans-serif;
+    border-color: #5B8FB9;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 94%;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    justify-content: space-around;   
+    background-color: rgb(3, 0, 28);
+    top: 15px; 
+    border-radius: 10px;
+
+  
+}
+nav > h1{
+        font-size:40px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    color:orange; 
+}
+body {   
+    width: 100%;
+    /*/background: url("./imgs/second.jpg") no-repeat center;
+    background-size:cover;*/
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5B8FB9;
+}
+#articlebg{
+    height: 80%;
+    width: 94%;
+    position:relative;
+    top: 3%;
+    background-color: rgb(3, 0, 28,0.9);
+    border-radius: 10px;
+    margin: auto;
+}
+p{
+    color: white;
+    font-family: Gothic A1;
+}
+input{
+    border-style: solid; 
+    font-size: 150%;
+    color: black;
+}
+#article{
+    border-radius: 2%;
+    border-style: solid;
+    height: 84%;
+    width: 62%;
+    background-color: rgb(91, 143, 185,0.1);
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.login{
+    border-style: solid;
+    border-radius: 2%;
+    height: 84%;
+    width: 32%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+    position: relative;
+    background-color:rgb(91, 143, 185,0.1) ;
+}
+.usernamediv{
+    position: relative;
+    margin: 2%;
+    top: 35%;
+    text-align: center;
+}
+.passworddiv{
+    margin: 2%;
+    top: 35%;
+    position: relative;
+    text-align: center;
+
+}
+.loginButton{
+    width: 80%;
+    height: 26%;
+    color:black;  
+    position: relative;
+    left: 10%;
+    top: 30%;  
+}
+.arrow {
+    cursor: pointer;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transition:0.4s ease;
+    margin:10px;
+   
+
+}
+.arrow:hover{
+    box-shadow: 0px 0px 1px 1px lightseagreen;
+    border-color: lightseagreen;
+}
+.arrow div{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-top: 8px solid lightseagreen;
+    border-left: 8px solid lightseagreen;
+    transform: rotate(90deg);
+    top:20px;
+    left :10px;
+}
+.right{
+ transform: rotate(50deg);
+ float: right;
+ align-self: center;
+}
+.left{
+ transform: rotate(230deg);
+ float: left;
+ align-self:center;
+}
